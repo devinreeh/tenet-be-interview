@@ -2,9 +2,15 @@
 
 ## Demo:
 To get dockerized api up and running
-`docker-compose build`
-`docker-compose run tenet python tenet/manage.py migrate`
-`docker-compose up`
+```
+docker-compose build
+```
+```
+docker-compose run tenet python tenet/manage.py migrate
+```
+```
+docker-compose up
+```
 
 ### Create User with POST
 ```
